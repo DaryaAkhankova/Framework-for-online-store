@@ -1,0 +1,20 @@
+{
+  "name": "finallesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --workers=1",
+    "report": "npx playwright show-report",
+    "lint": "eslint --debug ./ --fix",
+    "pretty": "prettier --write ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
